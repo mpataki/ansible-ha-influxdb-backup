@@ -4,7 +4,7 @@ This ansible role creates an influxdb snapshot, compresses it, and backs it up t
 
 ## Requirements
 
-You need to have an AWS account configures with credentials.
+Really this should work on any debian based system, but has been tested on a Raspberry Pi running Hassbian.
 
 ## Role Variables
 
@@ -16,7 +16,10 @@ You need to have an AWS account configures with credentials.
 
 ## Dependencies
 
-You first need to sign up for DuckDNS and obtain a token.
+- [ha-influxdb](https://github.com/mpataki/ansible-ha-influxdb)
+- [ha-aws](https://github.com/mpataki/ansible-ha-aws)
+
+These can be obtain via git or ansible galaxy.
 
 ## Example Playbook
 
