@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: ha-influxdb-backup
+  role_name: ha_influxd__backup
   author: Mat Pataki
   description: 'influxdb backup setup for home assistant'
   company: 'n/a'
