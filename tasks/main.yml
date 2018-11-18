@@ -10,6 +10,8 @@
 - name: cron job
   cron:
     name: InfluxDB backup
-    job: "/home/pi/backup_influxdb.sh {{ influxdb_backup_aws_profile }} {{ influxdb_backup_s3_bucket }} > /home/pi/influx_backup.log 2>&1"
+    job: >
+      /home/pi/backup_influxdb.sh
+      {{ influxdb_backup_aws_profile }}
+      {{ influxdb_backup_s3_bucket }} > /home/pi/influx_backup.log 2>&1"
     hour: '23'
-
