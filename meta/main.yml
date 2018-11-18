@@ -15,5 +15,5 @@ galaxy_info:
     - homeassistant
 
 dependencies:
-  - mpataki.ha-influxdb
-  - mpataki.ha-aws
+  - mpataki.ha_influxdb
+  - mpataki.ha_aws
