@@ -13,5 +13,5 @@
     job: >
       /home/pi/backup_influxdb.sh
       {{ influxdb_backup_aws_profile }}
-      {{ influxdb_backup_s3_bucket }} > /home/pi/influx_backup.log 2>&1"
+      {{ influxdb_backup_s3_bucket }} > /home/pi/influx_backup.log 2>&1
     hour: '23'
