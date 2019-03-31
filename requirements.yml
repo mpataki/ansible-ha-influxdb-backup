@@ -1,0 +1,4 @@
+---
+
+- src: mpataki.ha_influxdb
+- src: mpataki.ha_aws
