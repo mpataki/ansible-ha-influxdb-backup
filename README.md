@@ -1,5 +1,7 @@
 # ansible-ha-influxdb-backup
 
+[![Build Status](https://travis-ci.org/mpataki/ansible-ha-influxdb-backup.svg?branch=master)](https://travis-ci.org/mpataki/ansible-ha-influxdb-backup)
+
 This ansible role creates an influxdb snapshot, compresses it, and backs it up to AWS S3 on a schedule.
 
 ## Requirements
